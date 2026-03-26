@@ -1,0 +1,51 @@
+# Ignore virtual environment
+env/*
+
+# Ignore build and distribution artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+
+# Ignore IDE files
+*.pyc
+*.pyo
+
+# Ignore temporary and auto-generated files
+*.pyd
+*.log
+*.pyg
+*.obj
+
+# Ignore system files and configuration
+*.exe
+*.dll
+*.lib
+
+# Ignore coverage report
+coverage.xml
+.coveragerc
+ coverage/*.pyg
+
+# Ignore IDE settings
+*.suo
+*.ntvs*
+*.cproject
+*.projects
+
+# Ignore IDE cache
+*.lockfile
+
+# Ignore Python package cache
+.cache/
+*.whl
+
+# Ignore Node modules (if running Python on a Node.js backend)
+node_modules/
+
+# Ignore IDE specific configuration
+.pytest_cache/
+.pytest_plugins/
+mypy_cache/
+mypy.ini
+tox.ini
